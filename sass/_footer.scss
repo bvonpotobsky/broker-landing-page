@@ -1,0 +1,44 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  flex-direction: row;
+  height: 15rem;
+  background-color: $bitcoin-orange;
+
+  & section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.sectionOne {
+  width: 50%;
+  height: auto;
+
+  &__list {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    list-style: none;
+
+    &--item {
+      margin: 1rem 0;
+
+      a {
+        text-decoration: none;
+        color: $just-white;
+      }
+    }
+  }
+}
+
+.sectionTwo {
+  width: 50%;
+  &__logo {
+    width: 10rem;
+  }
+}

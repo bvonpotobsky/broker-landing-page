@@ -1,0 +1,40 @@
+/*
+    1. Posicionamiento
+    2. Modelo de caja
+    3. Tipografia
+    4. Visuales
+    5. Otros
+*/
+// Fonts variables
+$font-DMsans: "DM Sans", sans-serif;
+$font-Inter: "Inter", sans-serif;
+// Colors variables
+$bitcoin-orange: #f7931a;
+$soft-orange: #ffe9d5;
+$secondary-blue: #1a9af7;
+$soft-blue: #e7f5ff;
+$warm-black: #201e1c;
+$black: #282623;
+$grey: #bababa;
+$off-white: #faf8f7;
+$just-white: #fff;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  font-family: $font-DMsans;
+  scroll-behavior: smooth;
+}
+
+// body {
+//   position: relative;
+//   width: 100%;
+// }

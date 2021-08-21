@@ -1,0 +1,102 @@
+// Products details
+.details {
+  position: relative;
+  width: 100%;
+  min-width: 32rem;
+  height: auto;
+  padding: 2rem 1rem;
+  background-color: $warm-black;
+
+  &__icon {
+    position: absolute;
+    width: 4rem;
+    height: 2.5rem;
+    background-image: url(../assets/icons/batata.svg);
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, -50%);
+  }
+
+  &__text {
+    width: 90%;
+    min-width: 28.8rem;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 5rem;
+    text-align: center;
+
+    &--title {
+      margin-bottom: 2rem;
+      font-size: 2.4rem;
+      font-weight: bold;
+      line-height: 2.6rem;
+      color: $just-white;
+    }
+
+    &--p {
+      margin-bottom: 2rem;
+      font-size: 1.4rem;
+      font-weight: 500;
+      line-height: 1.8rem;
+      color: #808080;
+    }
+  }
+}
+
+// List of cards
+.cards {
+  //
+
+  &__card {
+    width: 90%;
+    min-width: 28.8rem;
+    max-width: 40rem;
+    min-height: 15rem;
+    margin: 1.5rem auto;
+    padding: 1.5rem;
+    background-color: $black;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+
+    &--icon {
+      display: inline-block;
+      width: 2rem;
+      height: 2rem;
+      margin-bottom: 1rem;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+
+      &.clock {
+        background-image: url("../assets/icons/clock.svg");
+      }
+
+      &.eye {
+        background-image: url("../assets/icons/eye.svg");
+      }
+
+      &.money {
+        background-image: url("../assets/icons/dollar-sign.svg");
+      }
+
+      &.approve {
+        background-image: url("../assets/icons/check-circle.svg");
+      }
+    }
+
+    &--title {
+      margin-bottom: 1.5rem;
+      font-size: 1.8rem;
+      font-weight: bold;
+      line-height: 1.8rem;
+      color: $just-white;
+    }
+
+    &--body {
+      font-size: 1.4rem;
+      font-weight: 500;
+      line-height: 1.8rem;
+      color: #808080;
+    }
+  }
+}

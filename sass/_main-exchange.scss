@@ -1,0 +1,300 @@
+main {
+  width: 100%;
+  height: auto;
+  background-color: $off-white;
+}
+
+.main-exchange {
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 3rem;
+  text-align: center;
+
+  &__background {
+    position: relative;
+    width: 20rem;
+    height: 20rem;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+    background-image: url(../assets/img/bitcoin.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  &__title {
+    width: 90%;
+    min-width: 28.8rem;
+    max-width: 90rem;
+    margin: 0 auto;
+
+    &--h2 {
+      margin-bottom: 3rem;
+      font-size: 2.4rem;
+      font-weight: bold;
+      line-height: 2.6rem;
+      color: $black;
+    }
+
+    &--p {
+      margin-bottom: 7rem;
+      font-size: 1.4rem;
+      font-weight: 500;
+      line-height: 1.6rem;
+      color: #757575;
+    }
+  }
+}
+
+// Currency table
+.currency {
+  position: relative;
+  width: 70%;
+  min-width: 23.5rem;
+  max-width: 50rem;
+  height: 36rem;
+  margin: 0 auto;
+  font-family: $font-Inter;
+
+  &__title {
+    position: relative;
+    left: 25rem;
+    top: 0;
+    transform: translate(-50%, -50%);
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.3rem;
+    text-align: left;
+    color: $bitcoin-orange;
+  }
+
+  &__date {
+    display: block;
+    width: 19rem;
+    height: 3rem;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    padding: 0.8rem;
+    background-color: $soft-orange;
+    border-radius: 0.8rem;
+
+    & p {
+      font-size: 1.2rem;
+      line-height: 1.5rem;
+      color: $warm-black;
+    }
+  }
+}
+
+.table {
+  position: relative;
+  width: 90%;
+  min-width: 23rem;
+  max-width: 30rem;
+  height: 25rem;
+  margin: 0 auto;
+
+  &-currency {
+    width: 100%;
+    height: 100%;
+
+    // Every row
+    & td {
+      width: 50%;
+      font-size: 1.6rem;
+      font-weight: 500;
+      line-height: 1.9rem;
+      color: $grey;
+      background-color: $just-white;
+    }
+
+    &__right {
+      font-size: 1.4rem;
+      font-weight: normal;
+      line-height: 1.7rem;
+      color: #757575;
+
+      .up {
+        display: inline-block;
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-left: 1rem;
+        background-image: url(../assets/icons/trending-up.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+
+      .down {
+        display: inline-block;
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-left: 1rem;
+        background-image: url(../assets/icons/trending-down.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+    }
+
+    &__top {
+      //
+
+      &--right {
+        border-top-right-radius: 0.8rem;
+      }
+
+      &--left {
+        border-top-left-radius: 0.8rem;
+      }
+    }
+
+    &__bottom {
+      //
+      &--left {
+        border-bottom-left-radius: 0.8rem;
+      }
+
+      &--right {
+        border-bottom-right-radius: 0.8rem;
+      }
+    }
+  }
+}
+
+// Commissions table
+.commissions {
+  position: relative;
+  width: 70%;
+  min-width: 23.5rem;
+  max-width: 50rem;
+  height: 36rem;
+  margin: 0 auto;
+  font-family: $font-Inter;
+  display: none;
+
+  &__title {
+    position: relative;
+    left: 16rem;
+    top: 0;
+    transform: translate(-50%, -50%);
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.3rem;
+    text-align: left;
+    color: $secondary-blue;
+  }
+
+  &__date {
+    display: block;
+    width: 19rem;
+    height: 3rem;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    padding: 0.8rem;
+    background-color: $soft-blue;
+    border-radius: 0.8rem;
+
+    & p {
+      font-size: 1.2rem;
+      line-height: 1.5rem;
+      color: $warm-black;
+    }
+  }
+}
+
+.table {
+  position: relative;
+  width: 90%;
+  min-width: 23rem;
+  max-width: 30rem;
+  height: 25rem;
+  margin: 0 auto;
+
+  &-commissions {
+    width: 100%;
+    height: 100%;
+
+    // Every row
+    & td {
+      width: 50%;
+      font-size: 1.6rem;
+      font-weight: 500;
+      line-height: 1.9rem;
+      color: $grey;
+      background-color: $just-white;
+    }
+
+    &__right {
+      font-size: 1.4rem;
+      font-weight: normal;
+      line-height: 1.7rem;
+      color: #757575;
+
+      .up {
+        display: inline-block;
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-left: 1rem;
+        background-image: url(../assets/icons/trending-up.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+
+      .down {
+        display: inline-block;
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-left: 1rem;
+        background-image: url(../assets/icons/trending-down.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+    }
+
+    &__top {
+      //
+
+      &--right {
+        border-top-right-radius: 0.8rem;
+      }
+
+      &--left {
+        border-top-left-radius: 0.8rem;
+      }
+    }
+
+    &__bottom {
+      //
+      &--left {
+        border-bottom-left-radius: 0.8rem;
+      }
+
+      &--right {
+        border-bottom-right-radius: 0.8rem;
+      }
+    }
+  }
+}
+
+// Arrows
+.arrow {
+  position: absolute;
+  display: inline-block;
+  transform: translate(-50%, -50%);
+  padding: 0.5rem 0.75rem;
+  border: none;
+  background-color: inherit;
+  outline: none;
+  cursor: pointer;
+}
+
+.button--right {
+  top: 50%;
+  right: -5rem;
+}
+
+.button--left {
+  top: 45%;
+  left: -3.5rem;
+  transform: rotateY(180deg);
+}

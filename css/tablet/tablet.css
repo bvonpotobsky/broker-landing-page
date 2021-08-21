@@ -1,0 +1,28 @@
+.commissions,
+.currency {
+  display: block;
+  position: relative; }
+  .commissions__title,
+  .currency__title {
+    position: relative;
+    left: 35rem;
+    top: 0; }
+
+.arrow {
+  display: none; }
+
+.container {
+  display: flex;
+  width: 93rem;
+  margin: 0 auto; }
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 93rem;
+  margin: 0 auto;
+  overflow-x: hidden; }
+
+.slider {
+  display: flex;
+  justify-content: center; }

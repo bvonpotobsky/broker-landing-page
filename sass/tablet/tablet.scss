@@ -1,0 +1,37 @@
+// Tables
+.commissions,
+.currency {
+  display: block;
+  position: relative;
+
+  &__title {
+    position: relative;
+    left: 35rem;
+    top: 0;
+  }
+}
+
+.arrow {
+  display: none;
+}
+
+.container {
+  display: flex;
+  width: 93rem;
+  margin: 0 auto;
+}
+
+// Product details
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 93rem;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+// Plans and cards
+.slider {
+  display: flex;
+  justify-content: center;
+}
